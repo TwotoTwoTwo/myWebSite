@@ -1,0 +1,26 @@
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--包名与dao包中的接口名对应-->
+<mapper namespace="cn.sijiu.dao.ArticleDao">
+    <!--目的:为dao接口方法提供sql语句配置
+    即针对dao接口中的方法编写我们的sql语句-->
+    <!--
+    id与接口中的方法名一致
+    parameterType:参数类型，与接口方法中的参数类型一致；对于多个参数，可不写参数类型，但在dao接口中要用@Param注解
+    resultType：返回值类型，
+    -->
+    <insert id="insertArticle" parameterType="Article">
+        insert into blog_Article (articleId,content,title,date) values(#{articleId},#{content},#{title},#{date})
+    </insert>
+    <update id="updateArticle" >
+        update blog_Article set content = #{content} , title =#{title} where articleId = #{articleId} ;
+    </update>
+    <select id="queryById" resultType="Article">
+        select * from blog_Article where articleId = #{articleId}
+    </select>
+    <select id="query" resultType="Article">
+        select * from blog_Article
+    </select>
+
+</mapper>
