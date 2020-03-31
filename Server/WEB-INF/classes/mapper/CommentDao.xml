@@ -1,0 +1,11 @@
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.sijiu.dao.CommentDao">
+    <insert id="insert" parameterType="cn.sijiu.entity.Comment">
+        insert comment(userName,articleId,content,date) values (#{userName},#{articleId},#{content},#{date})
+    </insert>
+    <select id="queryByArticleId" parameterType="String" resultType="cn.sijiu.entity.Comment">
+        select * from comment where articleId=#{articleId}
+    </select>
+</mapper>

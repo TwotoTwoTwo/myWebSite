@@ -3,7 +3,11 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
 <mapper namespace="cn.sijiu.dao.UserDao">
-    <select id="queryById" resultType="cn.sijiu.entity.User">
+    <select id="queryUser" resultType="cn.sijiu.entity.User">
         select * from User where userId = #{userId}
     </select>
+    <insert id="insertUser" useGeneratedKeys="true" keyProperty="userId" parameterType="cn.sijiu.entity.User">
+        insert user(userName,userPassword,sex,age,declaration)
+        values (#{userName},#{userPassword},#{sex},#{age},#{declaration})
+    </insert>
 </mapper>
