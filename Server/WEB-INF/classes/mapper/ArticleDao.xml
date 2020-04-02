@@ -11,10 +11,15 @@
     resultType：返回值类型，
     -->
     <insert id="insertArticle" parameterType="Article">
-        insert into Article (userId,articleId,content,title,date,category) values(#{userId},#{articleId},#{content},#{title},#{date},#{category})
+        insert into Article (userId,articleId,content,title,date,category,summary) values(#{userId},#{articleId},#{content},#{title},#{date},#{category},#{{summary}})
     </insert>
     <update id="updateArticle" >
-        update Article set content = #{content} , title =#{title} where articleId = #{articleId} ;
+        update Article set
+            content = #{content} ,
+            title =#{title},
+            category = #{category},
+            summary = #{{summary}}
+            where articleId = #{articleId} ;
     </update>
     <update id="updateArticleForUp">
         update Article set upNum = upNum + 1 where articleId = #{articleId} ;
@@ -23,7 +28,7 @@
         select * from Article where articleId = #{articleId}
     </select>
     <select id="query" resultType="Article">
-        select * from Article
+        select * from Article order by articleId
     </select>
 
 </mapper>
