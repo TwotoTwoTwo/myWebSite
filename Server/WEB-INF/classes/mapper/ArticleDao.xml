@@ -18,7 +18,7 @@
             content = #{content} ,
             title =#{title},
             category = #{category},
-            summary = #{{summary}}
+            summary = #{summary}}
             where articleId = #{articleId} ;
     </update>
     <update id="updateArticleForUp">
