@@ -13,10 +13,11 @@
        http://www.springframework.org/schema/aop
        http://www.springframework.org/schema/aop/spring-aop.xsd">
     <!--基于注解的aop-->
-    <aop:aspectj-autoproxy></aop:aspectj-autoproxy>
+    <aop:aspectj-autoproxy proxy-target-class="true"/>
     <!-- 扫描web相关的bean -->
     <context:component-scan base-package="cn.sijiu.controller"/>
     <context:component-scan base-package="cn.sijiu.service"/>
+    <context:component-scan base-package="cn.sijiu.aop"/>
 
     <!-- 开启SpringMVC注解模式 -->
     <mvc:annotation-driven/>
@@ -32,8 +33,7 @@
         <property name="prefix" value="/WEB-INF/views/"/>
         <property name="suffix" value=".jsp"/>
     </bean>
-
-
+    <!-- 处理请求返回json字符串的中文乱码问题 -->
     <bean id="jsonConverter" class="org.springframework.http.converter.json.MappingJackson2HttpMessageConverter">
         <property name="supportedMediaTypes">
             <list>
@@ -41,8 +41,6 @@
             </list>
         </property>
     </bean>
-
-    <!-- 处理请求返回json字符串的中文乱码问题 -->
     <mvc:annotation-driven>
         <mvc:message-converters>
             <bean class="org.springframework.http.converter.StringHttpMessageConverter">
@@ -54,4 +52,5 @@
             </bean>
         </mvc:message-converters>
     </mvc:annotation-driven>
+
 </beans>
