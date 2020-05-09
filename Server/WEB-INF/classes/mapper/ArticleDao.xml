@@ -21,14 +21,28 @@
             summary = #{summary}
             where articleId = #{articleId} ;
     </update>
+
     <update id="updateArticleForUp">
         update Article set upNum = upNum + 1 where articleId = #{articleId} ;
     </update>
+
+    <update id="updateArticleForRead">
+        update Article set ReadNum = REadNum + 1 where articleId = #{articleId} ;
+    </update>
+
     <select id="queryById" resultType="Article">
         select * from Article where articleId = #{articleId}
     </select>
+
     <select id="query" resultType="Article">
-        select * from Article order by articleId limit #{pageBegin},5
+        select * from Article
+        <where>
+            <if test="category!=null">category=#{category}</if>
+        </where>
+        order by articleId desc limit #{pageBegin},5
     </select>
 
+    <select id="queryCategories" resultType="String">
+        select category from Article group by category;
+    </select>
 </mapper>

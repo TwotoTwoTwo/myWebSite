@@ -15,15 +15,8 @@
     <!-- 配置数据库相关参数properties的属性：${url} -->
 
 
-    <bean id="propertyPlaceHolderConfigurer"
-          class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
-        <property name="locations">
-            <list>
-                <value>classpath:jdbc.properties</value>
-                <value>classpath:redis.properties</value>
-            </list>
-        </property>
-    </bean>
+    <!-- 加载配置文件 -->
+
     <!-- 数据库连接池 -->
     <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
         <property name="driverClass" value="${jdbc.driver}"/>
