@@ -39,7 +39,7 @@ public class BlogArticleController {
             if("articleId".equals(key)||"userId".equals(key)) continue;
             imgBase64=params.get(key);
             System.out.println(key);
-            url=blogService.imgToUrl(userId,id,key,imgBase64,basePath);
+            url=blogService.imgToUrl(userId,id, UUID.randomUUID().toString(), imgBase64,basePath);
             urls.put(key, url);
         }
         return urls;
