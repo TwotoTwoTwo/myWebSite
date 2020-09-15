@@ -36,5 +36,5 @@
         <property name="hashValueSerializer" ref="stringRedisSerializer">
         </property>
     </bean>
-    <bean id="RedisCacheDao" class="cn.sijiu.dao.RedisCacheDao"></bean>
+    <bean id="RedisCacheDao" class="cn.wsjiu.nineSite.dao.RedisCacheDao"></bean>
 </beans>

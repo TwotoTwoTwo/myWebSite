@@ -1,0 +1,13 @@
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="cn.wsjiu.nineSite.dao.UserDao">
+    <select id="queryUser" resultType="cn.wsjiu.nineSite.entity.User">
+        select * from User where userId = #{userId}
+    </select>
+    <insert id="insertUser" useGeneratedKeys="true" keyProperty="userId" parameterType="cn.wsjiu.nineSite.entity.User">
+        insert user(userName,userPassword,sex,age,declaration)
+        values (#{userName},#{userPassword},#{sex},#{age},#{declaration})
+    </insert>
+</mapper>

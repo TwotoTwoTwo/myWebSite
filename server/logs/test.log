@@ -1,0 +1,12 @@
+17:21:04.953 [main] INFO  cn.wsjiu.nineSite.App - Starting App on wsjiu with PID 14329 (/home/wsjiu/Application/server/target/classes started by wsjiu in /home/wsjiu/Application/server)
+17:21:04.972 [main] INFO  cn.wsjiu.nineSite.App - No active profile set, falling back to default profiles: default
+17:21:10.230 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+17:21:10.246 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+17:21:10.247 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12
+17:21:10.259 [main] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+17:21:10.654 [main] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17:21:10.667 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+17:21:13.967 [main] INFO   - Server begin
+17:21:13.976 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+17:21:13.988 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+17:21:14.053 [main] INFO  cn.wsjiu.nineSite.App - Started App in 10.501 seconds (JVM running for 12.604)

@@ -15,9 +15,9 @@
     <!--基于注解的aop-->
     <aop:aspectj-autoproxy proxy-target-class="true"/>
     <!-- 扫描web相关的bean -->
-    <context:component-scan base-package="cn.sijiu.controller"/>
-    <context:component-scan base-package="cn.sijiu.service"/>
-    <context:component-scan base-package="cn.sijiu.aop"/>
+    <context:component-scan base-package="cn.wsjiu.nineSite.controller"/>
+    <context:component-scan base-package="cn.wsjiu.nineSite.service"/>
+    <context:component-scan base-package="cn.wsjiu.nineSite.aop"/>
 
     <!-- 开启SpringMVC注解模式 -->
     <mvc:annotation-driven/>
