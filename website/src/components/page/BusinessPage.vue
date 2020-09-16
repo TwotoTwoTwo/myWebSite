@@ -18,7 +18,6 @@ export default {
   background: white;
   min-height: 400px;
   width: 20%;
-  margin-left: -8%;
   border-radius: 10px;
   box-shadow: 5px 5px 10px 5px rgba(241, 136, 50, 0.5);
 }

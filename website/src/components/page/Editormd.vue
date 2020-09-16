@@ -1,11 +1,13 @@
 <template>
-  <div class="editormd">
-    <input class="inputBox" placeholder="输入标题" maxlength='60' v-model="title"/>
-    <input class="inputBox" placeholder="输入分类(默认随笔)" v-model="category"/><br/>
-    <textarea class='summaryInput' v-model='summary' placeHolder='序言.....'></textarea>
-    <mavon-editor v-model='content' ref=md @imgAdd="$imgAdd" @change="$change" @imgDel="$imgDel"/>
-    <button class="submitButton" @click="submit">提交</button>
-  </div>
+    <div>
+      <div class="editormd">
+        <input class="inputBox" placeholder="输入标题" maxlength='60' v-model="title"/>
+        <input class="inputBox" placeholder="输入分类(默认随笔)" v-model="category"/><br/>
+        <textarea class='summaryInput' v-model='summary' placeHolder='序言.....'></textarea>
+        <mavon-editor v-model='content' ref=md @imgAdd="$imgAdd" @change="$change" @imgDel="$imgDel"/>
+      </div>
+      <button class="submitButton" @click="submit">提交</button>
+    </div>
 </template>
 <script>
 import axios from 'axios'
@@ -157,8 +159,9 @@ export default {
 <style>
   .editormd{
         width:100%;
-        margin-top: 1%;
-        opacity: 0.9;
+        background: white;
+         border-radius: 10px;
+         height: 100%;
     }
   .submitButton{
     margin-top: 10px;
@@ -175,23 +178,23 @@ export default {
     cursor: pointer;
   }
   .inputBox{
-  background:whitesmoke;
+  background:white;
   border: 0px;
   opacity: 0.8;
   border-radius: 5px;
   position: relative;
   top: 50%;
   height: 30px;
-  padding-left: 5px;
+  padding: 1%;
+  width: 47%;
+  font-weight: bold;
+  font-size: 100%;
  }
  .summaryInput{
-  width:95%;
+  width:98%;
   resize: none;
-  box-sizing: border-box;
   font-size: 15px;
-  padding: 5px;
-  border-radius: 5px;
-  margin:0px;
-  margin-top: 10px;
+  border: none;
+  margin-left: 1%;
  }
 </style>

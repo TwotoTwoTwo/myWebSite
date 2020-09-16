@@ -9,7 +9,7 @@
     </div>
     <br/>
     <div v-if="isMaster" style="width:100%;">
-        <p>俗人一个，只喜欢钱</p>
+        <p>俗人一个</p>
         <br/>
         <img src='../../assets/wechat.png' style="width:10%"/>
         <img src='../../assets/vertical_line.png' style="width:10%"/>
@@ -69,7 +69,6 @@ export default {
   width: 20%;
   height: fit-content;
   min-height: 400px;
-  margin-left: -8%;
   border-radius: 10px;
   box-shadow: 5px 5px 10px 5px rgba(17, 13, 252, 0.5);
 }
