@@ -48,14 +48,13 @@ export default {
 </script>
 <style>
 .preview{
-  margin: 10px;
-  margin-left: 0px;
+  margin: 50px;
   padding: 10px;
-  width: 100%;
+  width: 90%;
   color: rgb(252, 249, 249);
   display: block;
   border-radius: 10px;
-  box-shadow: -5px 5px 10px 1px rgba(93, 230, 211, 0.5);
+  box-shadow: 0px 0px 40px 1px rgba(29, 157, 231, 0.5);
   overflow: hidden;
   position: relative;
 }

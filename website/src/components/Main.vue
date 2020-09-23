@@ -6,7 +6,7 @@
     </div>
     <div class="navbar">
       <button class="navButton" @click="jump('/homePage')">首页</button>
-      <button class="navButton" @click="jump('/editorPage')">随笔</button>
+      <button class="navButton" @click="jump('/editorPage')"  v-if="isLogin">随笔</button>
       <button class="navButton" @click="jump('/')">关于我</button>
       <button class="navButton" @click="jump('/businessPage')">商业互吹联系</button>
     </div>
@@ -20,7 +20,8 @@ export default {
   },
   data () {
     return {
-      isShow: true
+      isShow: true,
+      isLogin: this.$user.token !== undefined && this.$user.token !== null
     }
   },
   methods: {

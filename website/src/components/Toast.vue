@@ -39,7 +39,7 @@ export default {
     text-align: center;
     background:rgb(158, 140, 175);
     border-radius: 5px;
-    z-index: 1000;
+    z-index: 999999;
     width: max-content;
     height: fit-content;
     animation:toastAnimation 1s;
