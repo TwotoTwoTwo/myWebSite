@@ -3,7 +3,8 @@ package cn.wsjiu.nineSite;
 public class Utils {
     public static String webRootPath;
     static {
-      webRootPath = System.getProperty("realPath");
+      webRootPath = System.getProperty("user.dir");
+      System.out.println(" webRootPath = " + webRootPath);
     }
     // 过滤器，过滤掉&&，插个空格，避免服务端参数拆分时的错误
     public static String datafilter(String target) {

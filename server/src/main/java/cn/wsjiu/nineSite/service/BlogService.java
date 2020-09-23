@@ -23,4 +23,8 @@ public interface BlogService {
     void saveComment(Comment comment);
     Map<Integer, String> getCommentsByArticleId(String articleId);
     String[] getCategories();
+
+    static void test() {
+        return;
+    };
 }

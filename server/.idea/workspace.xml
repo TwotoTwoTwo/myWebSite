@@ -14,8 +14,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="85f5e382-6346-4037-91e9-4aad44f95632" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application-dev.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application-production.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j-spring-dev.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j-spring-production.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static-resources/default.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static-resources/header/header.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static-resources/images/1/header.jpg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,11 +47,15 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main" />
-    <property name="settings.editor.selected.configurable" value="copyright" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
       <recent name="$PROJECT_DIR$/src/main" />
       <recent name="$PROJECT_DIR$/src/main/java/cn/nineSite" />
       <recent name="$PROJECT_DIR$/src/main/java" />
@@ -99,30 +109,30 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="384" y="176" width="613" height="414" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.768@0.0.1366.768" timestamp="1600159873180" />
-    <state x="491" y="85" width="374" height="595" key="#com.intellij.ide.util.MemberChooser" timestamp="1600162949606">
+    <state x="491" y="85" width="374" height="595" key="#com.intellij.ide.util.MemberChooser" timestamp="1600445587068">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="491" y="85" width="374" height="595" key="#com.intellij.ide.util.MemberChooser/0.0.1366.768@0.0.1366.768" timestamp="1600162949606" />
+    <state x="491" y="85" width="374" height="595" key="#com.intellij.ide.util.MemberChooser/0.0.1366.768@0.0.1366.768" timestamp="1600445587068" />
     <state x="434" y="203" width="486" height="359" key="#com.intellij.tools.ToolEditorDialog" timestamp="1600137827984">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="434" y="203" width="486" height="359" key="#com.intellij.tools.ToolEditorDialog/0.0.1366.768@0.0.1366.768" timestamp="1600137827984" />
-    <state width="1312" height="139" key="GridCell.Tab.0.bottom" timestamp="1600163007330">
+    <state width="1312" height="139" key="GridCell.Tab.0.bottom" timestamp="1600879794595">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1312" height="139" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1600163007330" />
-    <state width="1312" height="139" key="GridCell.Tab.0.center" timestamp="1600163007328">
+    <state width="1312" height="139" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1600879794595" />
+    <state width="1312" height="139" key="GridCell.Tab.0.center" timestamp="1600879794594">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1312" height="139" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1600163007328" />
-    <state width="1312" height="139" key="GridCell.Tab.0.left" timestamp="1600163007327">
+    <state width="1312" height="139" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1600879794594" />
+    <state width="1312" height="139" key="GridCell.Tab.0.left" timestamp="1600879794594">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1312" height="139" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1600163007327" />
-    <state width="1312" height="139" key="GridCell.Tab.0.right" timestamp="1600163007329">
+    <state width="1312" height="139" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1600879794594" />
+    <state width="1312" height="139" key="GridCell.Tab.0.right" timestamp="1600879794595">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1312" height="139" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1600163007329" />
+    <state width="1312" height="139" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1600879794595" />
     <state width="1312" height="224" key="GridCell.Tab.1.bottom" timestamp="1600160678421">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -139,17 +149,17 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state width="1312" height="224" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1600160678420" />
-    <state x="164" y="18" key="SettingsEditor" timestamp="1600162917586">
+    <state x="164" y="18" key="SettingsEditor" timestamp="1600763851576">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="164" y="18" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1600162917586" />
+    <state x="164" y="18" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1600763851576" />
     <state x="376" y="0" width="638" height="768" key="find.popup" timestamp="1600161785580">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="376" y="0" width="638" height="768" key="find.popup/0.0.1366.768@0.0.1366.768" timestamp="1600161785580" />
-    <state x="346" y="89" key="search.everywhere.popup" timestamp="1600162896044">
+    <state x="346" y="89" key="search.everywhere.popup" timestamp="1600445551898">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="346" y="89" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1600162896044" />
+    <state x="346" y="89" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1600445551898" />
   </component>
 </project>
