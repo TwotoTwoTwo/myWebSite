@@ -65,6 +65,10 @@ export default {
         let currentYear = new Date()
         currentYear.setMonth(0)
         currentYear.setDate(1)
+        currentYear.setHours(0)
+        currentYear.setMinutes(0)
+        currentYear.setSeconds(0)
+        currentYear.setMilliseconds(0)
         // 86400000 = 24 *  * 60 * 1000
         let hasTimestamp = date - currentYear
         // 今年的第几分钟
