@@ -42,7 +42,7 @@ public class BlogServiceImpl implements BlogService{
         //生成图片名字
         String imgName=imgId+"."+format;
         //生成图片的后半部分URL
-        String url="static-resources/images/"+userId+"/"+ArticleId+"/";
+        String url= "/static-resources/images/" +userId+"/"+ArticleId+"/";
         //图片储存路径
         String path=basePath+url;
         try {

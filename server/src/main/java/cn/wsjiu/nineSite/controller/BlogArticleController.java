@@ -5,13 +5,13 @@ import cn.wsjiu.nineSite.dao.RedisCacheDao;
 import cn.wsjiu.nineSite.entity.Article;
 import cn.wsjiu.nineSite.service.BlogService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.HttpServletRequest;
 import java.io.File;
 import java.util.*;
-import java.util.concurrent.locks.AbstractQueuedSynchronizer;
 
 @Controller
 @RequestMapping("/")
@@ -20,15 +20,18 @@ public class BlogArticleController {
     @Autowired
     private BlogService blogService;
 
+    @Value("${application.path}")
+    public String WEB_ROOT_PATH;
+
     //图片储存转url
     @RequestMapping("/imgToUrl")
     @ResponseBody
-    public Map<String,String> imgsToUrl(@Autowired HttpServletRequest req, @RequestBody Map<String,String> params){
+    public Map<String,String> imgsToUrl(@RequestBody Map<String,String> params){
         String id,imgBase64,url;
         String userId;
         Map<String,String> urls=new HashMap<>();
         // 获取图片储存的绝对路径
-        String basePath=req.getSession().getServletContext().getRealPath("/");
+        String basePath=WEB_ROOT_PATH;
         id=params.get("articleId");// 获取img的文章id
         userId=params.get("userId");
         // 利用Enumeration获取req的所有参数
@@ -66,9 +69,10 @@ public class BlogArticleController {
     public String previewCover(@RequestParam String articleId,@RequestParam String userId){
     String coverName=null;// 预览图名称
     // 获取根路径 在webxml里面配置
-    String path= Utils.webRootPath+"static-resources/images/";
+    String path= WEB_ROOT_PATH + "/static-resources/images/";
     String userPath =path + userId+"/" + articleId;
     File f=new File(userPath);
+
     if(f.exists()) {
         String[] list=f.list();
         if(list.length>0) coverName="images/"+userId+'/'+articleId+"/"+list[0];
