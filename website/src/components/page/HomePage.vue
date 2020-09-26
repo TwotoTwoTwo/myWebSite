@@ -1,9 +1,11 @@
 <template>
   <div v-if = "isAlready" class="homePage" id="homePage">
-    <articlepage v-for = "(value, name,i) in data" :key='i' :info='value' ></articlepage>
-    <button v-if="page>0" class="RLButton" @click="last()">上一页</button>
-    <button v-if="nextPageData!=undefined" class="RLButton" style="float: right" @click="next()">下一页</button>
-  </div>
+    <articlepage v-for = "(value, name,i) in data" :key='i' :info='value' ></articlepage><br/>
+    <div style="width: 80%;display:inline-block;">
+      <button v-if="page>0" class="RLButton"   style= "float:left;"  @click="last()">上一页</button>
+      <button v-if="nextPageData!=undefined" class="RLButton" style="float: right;" @click="next()">下一页</button>
+    </div>
+    </div>
 </template>
 <script>
 import axios from 'axios'
@@ -66,6 +68,7 @@ export default {
 </script>
 <style>
 .homePage{
+  text-align: center;
   width:100%;
 }
 </style>

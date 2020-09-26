@@ -16,8 +16,8 @@ export default {
   font: large;
   padding: 20px;
   background: white;
-  min-height: 400px;
-  width: 20%;
+  min-height: 300px;
+  width: 200px;
   border-radius: 10px;
   box-shadow: 5px 5px 10px 5px rgba(241, 136, 50, 0.5);
 }

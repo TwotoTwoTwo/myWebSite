@@ -50,11 +50,11 @@ export default {
 <style>
 .mc{
   height: 75%;
-  width:95%;
-  text-align: left;
+  width:100%;
+  text-align: center;
   color: white;
   display: inline-block;
-  margin-left: 3%;
+  padding: 1%;
   padding-bottom: 80px;
   box-sizing: border-box;
 }

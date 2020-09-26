@@ -18,10 +18,10 @@
         <a href="https://github.com/TwotoTwoTwo" target="_blank"><img src='../../assets/github.png' style="width:10%"/></a>
         <br/>
         <br/>
-        <div style="width:50%;display:inline-block;text-align:right;">ip访问量：</div>
-        <div style="width:10%;display:inline-block;">{{ipNums}}</div><br/>
-        <div style="width:50%;display:inline-block;text-align:right;">站点访问量：</div>
-        <div style="width:10%;display:inline-block;">{{vistorNums}}</div>
+        <div style="width:60%;display:inline;text-align:right;">ip访问量：</div>
+        <div style="width:20%;display:inline;text-align:left;">{{ipNums}}</div><br/>
+        <div style="width:60%;display:inline;text-align:right;">站点访问：</div>
+        <div style="width:20%;display:inline;text-align:left;">{{vistorNums}}</div>
 
     </div>
     <clock></clock>
@@ -66,7 +66,7 @@ export default {
   font: large;
   padding: 20px;
   background: white;
-  width: 20%;
+  width: 200px;
   height: fit-content;
   min-height: 400px;
   border-radius: 10px;

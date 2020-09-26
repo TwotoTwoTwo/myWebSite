@@ -1,6 +1,6 @@
 <template>
   <div class="preview" @click="onClick()">
-    <p class="date">{{infoArray[3]}}</p>
+    <div class="date">{{infoArray[3]}}</div>
     <h2 class="title">{{infoArray[1]}}</h2>
     <h3 style="color: blue;width:max-content;">{{isYourArticle?'你的文章':''}}</h3>
     <hr/>
@@ -48,35 +48,35 @@ export default {
 </script>
 <style>
 .preview{
-  margin: 50px;
-  padding: 10px;
-  width: 90%;
+  width: 80%;
+  text-align: left;
   color: rgb(252, 249, 249);
-  display: block;
+  display: inline-block;
   border-radius: 10px;
   box-shadow: 0px 0px 40px 1px rgba(29, 157, 231, 0.5);
   overflow: hidden;
-  position: relative;
+  margin-top: 20px;
+  margin-bottom: 20px;;
 }
 .preview:hover{
  opacity: 0.8;
  cursor: pointer;
 }
 .title{
-  width:max-content;
   margin-left: 20px;
-  display: inline-block;
+  display: block;
 }
 .title:hover{
   color: rgb(240, 26, 37);
   padding-left: 10px;
 }
 .date{
- padding: 10px;
+ margin: 10px;
+ padding: 5px;
+ float: right;
+ width: max-content;
  border-radius: 5px;
- position: absolute;
  background: rgb(78, 230, 222);
- right: 5px;
  color: rgb(15, 15, 15);
 }
 .articleContainer{
@@ -85,9 +85,7 @@ export default {
   overflow-y: hidden;
 }
 .posted{
-  position: absolute;
-  right: 0px;
-  bottom: 0px;
+  float: right;
   margin: 10px;
 }
 .cover{

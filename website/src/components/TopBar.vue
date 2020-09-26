@@ -64,13 +64,13 @@ export default {
   }
   .RLButton:hover{
     padding: 10px;
-    background: rgb(211, 6, 252);
+    background: rgb(101, 178, 230);
     cursor: pointer;
   }
   .topBar{
     text-align:right;
-    padding-right: 20px;
     padding-top:5px;
+    padding-bottom: 20px;
     margin: auto;
     color: rgb(80, 221, 240);
   }
