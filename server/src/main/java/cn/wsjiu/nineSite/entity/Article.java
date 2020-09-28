@@ -10,6 +10,7 @@ public class Article {
     String category;
     String userId;
     String summary;//摘言
+    String userName;
     int upNum;//点赞数
     int readNum;//阅读量
 
@@ -99,6 +100,6 @@ public class Article {
                 date + "&&" +
                 category + "&&" +
                 upNum + "&&" +
-                readNum+ "&&" +userId;
+                readNum+ "&&" + userName;
     }
 }

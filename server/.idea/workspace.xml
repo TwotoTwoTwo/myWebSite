@@ -14,14 +14,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="85f5e382-6346-4037-91e9-4aad44f95632" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application-dev.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application-production.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j-spring-dev.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j-spring-production.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/static-resources/default.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/static-resources/header/header.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/static-resources/images/1/header.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/wsjiu/nineSite/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/wsjiu/nineSite/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/wsjiu/nineSite/controller/BlogArticleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/wsjiu/nineSite/controller/BlogArticleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/wsjiu/nineSite/entity/Article.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/wsjiu/nineSite/entity/Article.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/wsjiu/nineSite/service/BlogServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/wsjiu/nineSite/service/BlogServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/ArticleDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mappers/ArticleDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/static-resources/default.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/static-resources/default.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/static-resources/header/header.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/static-resources/header/header.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/static-resources/images/1/header.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/static-resources/images/1/header.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mappers/ArticleDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mappers/ArticleDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/server-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/server-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/server-1.0-SNAPSHOT.war.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/server-1.0-SNAPSHOT.war.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-cn.wsjiu.nineSite.AppTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-cn.wsjiu.nineSite.AppTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/cn.wsjiu.nineSite.AppTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/cn.wsjiu.nineSite.AppTest.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,22 +130,22 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="434" y="203" width="486" height="359" key="#com.intellij.tools.ToolEditorDialog/0.0.1366.768@0.0.1366.768" timestamp="1600137827984" />
-    <state width="1312" height="137" key="GridCell.Tab.0.bottom" timestamp="1601022445104">
+    <state width="1312" height="137" key="GridCell.Tab.0.bottom" timestamp="1601314352564">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1312" height="137" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1601022445104" />
-    <state width="1312" height="137" key="GridCell.Tab.0.center" timestamp="1601022445104">
+    <state width="1312" height="137" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1601314352564" />
+    <state width="1312" height="137" key="GridCell.Tab.0.center" timestamp="1601314352563">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1312" height="137" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1601022445104" />
-    <state width="1312" height="137" key="GridCell.Tab.0.left" timestamp="1601022445103">
+    <state width="1312" height="137" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1601314352563" />
+    <state width="1312" height="137" key="GridCell.Tab.0.left" timestamp="1601314352562">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1312" height="137" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1601022445103" />
-    <state width="1312" height="137" key="GridCell.Tab.0.right" timestamp="1601022445104">
+    <state width="1312" height="137" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1601314352562" />
+    <state width="1312" height="137" key="GridCell.Tab.0.right" timestamp="1601314352564">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1312" height="137" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1601022445104" />
+    <state width="1312" height="137" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1601314352564" />
     <state width="1312" height="220" key="GridCell.Tab.1.bottom" timestamp="1600918303934">
       <screen x="0" y="0" width="1366" height="768" />
     </state>

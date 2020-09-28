@@ -11,14 +11,15 @@
     resultType：返回值类型，
     -->
     <insert id="insertArticle" parameterType="cn.wsjiu.nineSite.entity.Article">
-        insert into Article (userId,articleId,content,title,date,category,summary) values(#{userId},#{articleId},#{content},#{title},#{date},#{category},#{summary})
+        insert into Article (userId,articleId,content,title,date,category,summary,userName) values(#{userId},#{articleId},#{content},#{title},#{date},#{category},#{summary},#{userName})
     </insert>
     <update id="updateArticle" >
         update Article set
             content = #{content} ,
             title =#{title},
             category = #{category},
-            summary = #{summary}
+            summary = #{summary},
+            userName = #{userName}
             where articleId = #{articleId} ;
     </update>
 
