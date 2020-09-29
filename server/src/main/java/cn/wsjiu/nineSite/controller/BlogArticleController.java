@@ -50,7 +50,7 @@ public class BlogArticleController {
     @ResponseBody
     public String upBlogArticle(@RequestBody Article article){
         //service保存article
-        boolean result=blogService.saveArticle(article);
+        boolean result=blogService.savegitArticle(article);
         // 返回储存结果
         return result?"Y":"N";
     }

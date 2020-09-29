@@ -3,7 +3,7 @@
     <div class="mdPage">
       <h1 class="h">{{info[1]}}</h1>
       <br/>
-      <label style="color: blue;width:max-content;padding:3px;">作者：{{info[7]}}号</label>
+      <label style="color: blue;width:max-content;padding:3px;">作者：{{info[7]}}</label>
       <label style="color: green;width:max-content;padding:3px;">发布于 {{info[3]}}</label>
       <button class='upButton' @click="edit()">编辑</button>
       <br/>
@@ -237,6 +237,7 @@ export default {
   padding-bottom: 15px;
   background: rgb(255, 255, 255);
   color: black;
+  text-align: left;
 }
  .mdPage h2{
   padding: 5px;

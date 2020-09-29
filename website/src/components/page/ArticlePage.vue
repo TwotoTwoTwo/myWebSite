@@ -6,7 +6,7 @@
     <hr/>
     <img :src="coverPath" class="cover"/>
     <div class="articleContainer">{{infoArray[2]}}</div>
-    <label class="posted">posted by {{infoArray[7]}} 号ID</label>
+    <label class="posted">posted by {{infoArray[7]}} </label>
   </div>
 </template>
 <script>
@@ -27,14 +27,14 @@ export default {
       //  category + "&&" +
       //  upNum + "&&" +
       //  readNum+"&&" +
-      //  userId;
+      //  userName;
     },
     coverPath: function () {
       return this.$baseUrl + 'getCover?articleId=' + this.infoArray[0] + '&userId=' + this.infoArray[7]
     },
     isYourArticle: function () {
       // 判断是不是自己的文章
-      return this.infoArray[7] === this.$user['userId']
+      return this.infoArray[7] === this.$user.userName
     }
   },
   methods: {

@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div style="text-align: left;">
       <div class="editormd">
         <input class="inputBox" placeholder="输入标题" maxlength='60' v-model="title"/>
         <input class="inputBox" placeholder="输入分类(默认随笔)" v-model="category"/><br/>
@@ -123,9 +123,9 @@ export default {
       })
     },
     upArticle () {
-      console.log(this.summary)
+      console.log(this.$user.userName)
       axios({
-        url: this.$baseUrl + 'upLoad',
+        url: 'upLoad',
         data: {
           'content': this.content,
           'articleId': this.articleId,
@@ -133,7 +133,8 @@ export default {
           'date': this.date,
           'category': this.category !== undefined ? this.category : '随笔',
           'userId': this.$user.userId,
-          'summary': this.summary !== '' ? this.summary : '随笔'
+          'summary': this.summary !== '' ? this.summary : '随笔',
+          'userName': this.$user.userName
         },
         method: 'post'
       }).then(resp => {

@@ -8,6 +8,7 @@
 <script>
 import Vue from 'vue'
 import axios from 'axios'
+// import axios from 'axios'
 export default {
   name: 'APP',
   data () {
@@ -42,7 +43,7 @@ export default {
           sex: resp.data['sex'],
           age: resp.data['age'],
           declaration: resp.data['declaration'],
-          userPassword: null
+          token: null
         }
         // sessionstorage 防止刷新
         window.sessionStorage.setItem('user', JSON.stringify(user))
