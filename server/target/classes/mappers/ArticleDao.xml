@@ -15,6 +15,7 @@
     </insert>
     <update id="updateArticle" >
         update Article set
+            userId = #{userId}
             content = #{content} ,
             title =#{title},
             category = #{category},

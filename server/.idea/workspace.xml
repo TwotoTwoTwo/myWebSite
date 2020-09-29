@@ -22,9 +22,12 @@
       <change beforePath="$PROJECT_DIR$/src/main/static-resources/default.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/static-resources/default.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/static-resources/header/header.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/static-resources/header/header.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/static-resources/images/1/header.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/static-resources/images/1/header.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/wsjiu/nineSite/entity/Article.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/wsjiu/nineSite/entity/Article.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/mappers/ArticleDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mappers/ArticleDao.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/server-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/server-1.0-SNAPSHOT.war" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/server-1.0-SNAPSHOT.war.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/server-1.0-SNAPSHOT.war.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/server-1.0-SNAPSHOT/WEB-INF/classes/cn/wsjiu/nineSite/entity/Article.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/server-1.0-SNAPSHOT/WEB-INF/classes/cn/wsjiu/nineSite/entity/Article.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/server-1.0-SNAPSHOT/WEB-INF/classes/mappers/ArticleDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/server-1.0-SNAPSHOT/WEB-INF/classes/mappers/ArticleDao.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-cn.wsjiu.nineSite.AppTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-cn.wsjiu.nineSite.AppTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/cn.wsjiu.nineSite.AppTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/cn.wsjiu.nineSite.AppTest.txt" afterDir="false" />
     </list>
@@ -130,38 +133,38 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="434" y="203" width="486" height="359" key="#com.intellij.tools.ToolEditorDialog/0.0.1366.768@0.0.1366.768" timestamp="1600137827984" />
-    <state width="1312" height="137" key="GridCell.Tab.0.bottom" timestamp="1601314352564">
+    <state width="1312" height="220" key="GridCell.Tab.0.bottom" timestamp="1601397890804">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1312" height="137" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1601314352564" />
-    <state width="1312" height="137" key="GridCell.Tab.0.center" timestamp="1601314352563">
+    <state width="1312" height="220" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1601397890804" />
+    <state width="1312" height="220" key="GridCell.Tab.0.center" timestamp="1601397890803">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1312" height="137" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1601314352563" />
-    <state width="1312" height="137" key="GridCell.Tab.0.left" timestamp="1601314352562">
+    <state width="1312" height="220" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1601397890803" />
+    <state width="1312" height="220" key="GridCell.Tab.0.left" timestamp="1601397890803">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1312" height="137" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1601314352562" />
-    <state width="1312" height="137" key="GridCell.Tab.0.right" timestamp="1601314352564">
+    <state width="1312" height="220" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1601397890803" />
+    <state width="1312" height="220" key="GridCell.Tab.0.right" timestamp="1601397890804">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1312" height="137" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1601314352564" />
-    <state width="1312" height="220" key="GridCell.Tab.1.bottom" timestamp="1600918303934">
+    <state width="1312" height="220" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1601397890804" />
+    <state width="1312" height="220" key="GridCell.Tab.1.bottom" timestamp="1601397890807">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1312" height="220" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1600918303934" />
-    <state width="1312" height="220" key="GridCell.Tab.1.center" timestamp="1600918303934">
+    <state width="1312" height="220" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1601397890807" />
+    <state width="1312" height="220" key="GridCell.Tab.1.center" timestamp="1601397890806">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1312" height="220" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1600918303934" />
-    <state width="1312" height="220" key="GridCell.Tab.1.left" timestamp="1600918303933">
+    <state width="1312" height="220" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1601397890806" />
+    <state width="1312" height="220" key="GridCell.Tab.1.left" timestamp="1601397890805">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1312" height="220" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1600918303933" />
-    <state width="1312" height="220" key="GridCell.Tab.1.right" timestamp="1600918303934">
+    <state width="1312" height="220" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1601397890805" />
+    <state width="1312" height="220" key="GridCell.Tab.1.right" timestamp="1601397890807">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1312" height="220" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1600918303934" />
+    <state width="1312" height="220" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1601397890807" />
     <state x="164" y="18" key="SettingsEditor" timestamp="1601021457400">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
