@@ -123,9 +123,9 @@ export default {
       })
     },
     upArticle () {
-      console.log(this.$user.userName)
+      // console.log(this.$user.userName)
       axios({
-        url: 'upLoad',
+        url: this.$baseUrl + 'upLoad',
         data: {
           'content': this.content,
           'articleId': this.articleId,

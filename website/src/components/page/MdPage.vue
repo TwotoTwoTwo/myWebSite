@@ -1,5 +1,5 @@
 <template>
-  <div v-if="isAready===2">
+  <div v-if="isAready===2" style="text-align:left">
     <div class="mdPage">
       <h1 class="h">{{info[1]}}</h1>
       <br/>
