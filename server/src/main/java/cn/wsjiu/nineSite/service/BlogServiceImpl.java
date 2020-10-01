@@ -7,6 +7,8 @@ import cn.wsjiu.nineSite.dao.UserDao;
 import cn.wsjiu.nineSite.entity.Article;
 import cn.wsjiu.nineSite.entity.Comment;
 import cn.wsjiu.nineSite.entity.User;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -20,6 +22,7 @@ import java.util.TreeMap;
 
 @Service
 public class BlogServiceImpl implements BlogService{
+    static Logger logger = LogManager.getRootLogger();
     @Autowired
     ArticleDao articleDao;// 博客文章的Dao
     @Autowired

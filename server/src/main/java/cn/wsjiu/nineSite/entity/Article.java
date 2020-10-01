@@ -76,6 +76,14 @@ public class Article {
         this.summary = summary;
     }
 
+    public String getUserName() {
+        return userName;
+    }
+
+    public void setUserName(String userName) {
+        this.userName = userName;
+    }
+
     public int getUpNum() {
         return upNum;
     }
