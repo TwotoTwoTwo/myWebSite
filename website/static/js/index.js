@@ -42,7 +42,7 @@ var asteroids = new THREE.Group();
 
 for (var p = 0; p < Math.PI * 2; p = p + Math.random() * 0.15) {
   var asteroid = new THREE.Mesh(
-    new THREE.IcosahedronGeometry(8, 0),
+    new THREE.IcosahedronGeometry(10, 0),
     material
   );
 

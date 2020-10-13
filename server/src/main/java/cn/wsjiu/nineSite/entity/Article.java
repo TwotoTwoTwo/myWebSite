@@ -108,6 +108,7 @@ public class Article {
                 date + "&&" +
                 category + "&&" +
                 upNum + "&&" +
-                readNum+ "&&" + userName;
+                readNum+ "&&" +
+                userName + "&&" + userId;
     }
 }

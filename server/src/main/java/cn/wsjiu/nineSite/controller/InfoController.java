@@ -25,6 +25,7 @@ public class InfoController {
     public String accessWebSite(@Autowired HttpServletRequest request){
         return "redirect:./blog";
     }
+
     @ResponseBody
     @RequestMapping(value="/ipNums",method = RequestMethod.GET)
     public String getIpNums(){

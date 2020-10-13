@@ -14,21 +14,45 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="85f5e382-6346-4037-91e9-4aad44f95632" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/wsjiu/nineSite/service/ArticleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/wsjiu/nineSite/service/CommentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/wsjiu/nineSite/service/impl/ArticleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/wsjiu/nineSite/service/impl/CommentServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cn/wsjiu/nineSite/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/wsjiu/nineSite/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/wsjiu/nineSite/aop/LogAop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/wsjiu/nineSite/aop/LogAop.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cn/wsjiu/nineSite/controller/BlogArticleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/wsjiu/nineSite/controller/BlogArticleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/wsjiu/nineSite/controller/CommentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/wsjiu/nineSite/controller/CommentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/wsjiu/nineSite/controller/InfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/wsjiu/nineSite/controller/InfoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/wsjiu/nineSite/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/wsjiu/nineSite/controller/UserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cn/wsjiu/nineSite/entity/Article.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/wsjiu/nineSite/entity/Article.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/wsjiu/nineSite/service/BlogServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/wsjiu/nineSite/service/BlogServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/wsjiu/nineSite/service/BlogService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/wsjiu/nineSite/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/wsjiu/nineSite/service/BlogServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/wsjiu/nineSite/service/impl/UserServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/ArticleDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mappers/ArticleDao.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/static-resources/default.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/static-resources/default.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/static-resources/header/header.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/static-resources/header/header.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/static-resources/images/1/header.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/static-resources/images/1/header.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/wsjiu/nineSite/aop/LogAop.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/wsjiu/nineSite/aop/LogAop.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/wsjiu/nineSite/controller/BlogArticleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/wsjiu/nineSite/controller/BlogArticleController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/wsjiu/nineSite/controller/CommentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/wsjiu/nineSite/controller/CommentController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/wsjiu/nineSite/controller/InfoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/wsjiu/nineSite/controller/InfoController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/wsjiu/nineSite/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/wsjiu/nineSite/controller/UserController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/cn/wsjiu/nineSite/entity/Article.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/wsjiu/nineSite/entity/Article.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/wsjiu/nineSite/service/BlogServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/wsjiu/nineSite/service/BlogServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/wsjiu/nineSite/service/BlogService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/wsjiu/nineSite/service/BlogServiceImpl.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/mappers/ArticleDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mappers/ArticleDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/server-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/server-1.0-SNAPSHOT.war" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/server-1.0-SNAPSHOT.war.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/server-1.0-SNAPSHOT.war.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/server-1.0-SNAPSHOT/WEB-INF/classes/cn/wsjiu/nineSite/aop/LogAop.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/server-1.0-SNAPSHOT/WEB-INF/classes/cn/wsjiu/nineSite/aop/LogAop.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/server-1.0-SNAPSHOT/WEB-INF/classes/cn/wsjiu/nineSite/controller/BlogArticleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/server-1.0-SNAPSHOT/WEB-INF/classes/cn/wsjiu/nineSite/controller/BlogArticleController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/server-1.0-SNAPSHOT/WEB-INF/classes/cn/wsjiu/nineSite/controller/CommentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/server-1.0-SNAPSHOT/WEB-INF/classes/cn/wsjiu/nineSite/controller/CommentController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/server-1.0-SNAPSHOT/WEB-INF/classes/cn/wsjiu/nineSite/controller/InfoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/server-1.0-SNAPSHOT/WEB-INF/classes/cn/wsjiu/nineSite/controller/InfoController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/server-1.0-SNAPSHOT/WEB-INF/classes/cn/wsjiu/nineSite/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/server-1.0-SNAPSHOT/WEB-INF/classes/cn/wsjiu/nineSite/controller/UserController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/server-1.0-SNAPSHOT/WEB-INF/classes/cn/wsjiu/nineSite/entity/Article.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/server-1.0-SNAPSHOT/WEB-INF/classes/cn/wsjiu/nineSite/entity/Article.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/server-1.0-SNAPSHOT/WEB-INF/classes/cn/wsjiu/nineSite/service/BlogServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/server-1.0-SNAPSHOT/WEB-INF/classes/cn/wsjiu/nineSite/service/BlogServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/server-1.0-SNAPSHOT/WEB-INF/classes/cn/wsjiu/nineSite/service/BlogService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/server-1.0-SNAPSHOT/WEB-INF/classes/cn/wsjiu/nineSite/service/BlogServiceImpl.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/server-1.0-SNAPSHOT/WEB-INF/classes/mappers/ArticleDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/server-1.0-SNAPSHOT/WEB-INF/classes/mappers/ArticleDao.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-cn.wsjiu.nineSite.AppTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-cn.wsjiu.nineSite.AppTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/cn.wsjiu.nineSite.AppTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/cn.wsjiu.nineSite.AppTest.txt" afterDir="false" />
@@ -37,6 +61,13 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -57,6 +88,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -127,46 +159,50 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="384" y="176" width="613" height="414" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.768@0.0.1366.768" timestamp="1600159873180" />
-    <state x="491" y="85" width="374" height="595" key="#com.intellij.ide.util.MemberChooser" timestamp="1601403583884">
+    <state x="491" y="85" width="374" height="595" key="#com.intellij.ide.util.MemberChooser" timestamp="1602564968895">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="491" y="85" width="374" height="595" key="#com.intellij.ide.util.MemberChooser/0.0.1366.768@0.0.1366.768" timestamp="1601403583884" />
+    <state x="491" y="85" width="374" height="595" key="#com.intellij.ide.util.MemberChooser/0.0.1366.768@0.0.1366.768" timestamp="1602564968895" />
+    <state x="105" y="0" width="1135" height="768" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1602564588314">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="105" y="0" width="1135" height="768" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.768@0.0.1366.768" timestamp="1602564588314" />
     <state x="434" y="203" width="486" height="359" key="#com.intellij.tools.ToolEditorDialog" timestamp="1600137827984">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="434" y="203" width="486" height="359" key="#com.intellij.tools.ToolEditorDialog/0.0.1366.768@0.0.1366.768" timestamp="1600137827984" />
-    <state width="1312" height="218" key="GridCell.Tab.0.bottom" timestamp="1601404231115">
+    <state width="1312" height="216" key="GridCell.Tab.0.bottom" timestamp="1602569374917">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1312" height="218" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1601404231115" />
-    <state width="1312" height="218" key="GridCell.Tab.0.center" timestamp="1601404231113">
+    <state width="1312" height="216" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1602569374917" />
+    <state width="1312" height="216" key="GridCell.Tab.0.center" timestamp="1602569374916">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1312" height="218" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1601404231113" />
-    <state width="1312" height="218" key="GridCell.Tab.0.left" timestamp="1601404231112">
+    <state width="1312" height="216" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1602569374916" />
+    <state width="1312" height="216" key="GridCell.Tab.0.left" timestamp="1602569374915">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1312" height="218" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1601404231112" />
-    <state width="1312" height="218" key="GridCell.Tab.0.right" timestamp="1601404231114">
+    <state width="1312" height="216" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1602569374915" />
+    <state width="1312" height="216" key="GridCell.Tab.0.right" timestamp="1602569374917">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1312" height="218" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1601404231114" />
-    <state width="1312" height="218" key="GridCell.Tab.1.bottom" timestamp="1601404231119">
+    <state width="1312" height="216" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1602569374917" />
+    <state width="1312" height="216" key="GridCell.Tab.1.bottom" timestamp="1602569374918">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1312" height="218" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1601404231119" />
-    <state width="1312" height="218" key="GridCell.Tab.1.center" timestamp="1601404231117">
+    <state width="1312" height="216" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1602569374918" />
+    <state width="1312" height="216" key="GridCell.Tab.1.center" timestamp="1602569374917">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1312" height="218" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1601404231117" />
-    <state width="1312" height="218" key="GridCell.Tab.1.left" timestamp="1601404231116">
+    <state width="1312" height="216" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1602569374917" />
+    <state width="1312" height="216" key="GridCell.Tab.1.left" timestamp="1602569374917">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1312" height="218" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1601404231116" />
-    <state width="1312" height="218" key="GridCell.Tab.1.right" timestamp="1601404231118">
+    <state width="1312" height="216" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1602569374917" />
+    <state width="1312" height="216" key="GridCell.Tab.1.right" timestamp="1602569374918">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1312" height="218" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1601404231118" />
+    <state width="1312" height="216" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1602569374918" />
     <state x="164" y="18" key="SettingsEditor" timestamp="1601021457400">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -179,22 +215,5 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="346" y="89" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1601403557039" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/cn/wsjiu/nineSite/controller/BlogArticleController.java</url>
-          <line>53</line>
-          <properties class="cn.wsjiu.nineSite.controller.BlogArticleController" method="upBlogArticle" />
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/cn/wsjiu/nineSite/controller/BlogArticleController.java</url>
-          <line>55</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

@@ -19,7 +19,7 @@ import java.lang.reflect.Method;
 public class LogAop{
     @Autowired
     private RedisCacheDao rcd;
-    public static Logger logger = LogManager.getRootLogger();
+    private static Logger logger = LogManager.getRootLogger();
     @EventListener
     public void onApplicationEvent(ApplicationEvent applicationEvent) {
         if(applicationEvent instanceof ContextRefreshedEvent) {
