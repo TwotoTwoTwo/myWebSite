@@ -19,7 +19,7 @@ export default {
   },
   computed: {
     infoArray: function () {
-      return this.info.split('&&', 8)
+      return this.info.split('&&', 9)
       //  articleId + "&&" +
       //  title + "&&" +
       //  summary + "&&" +
@@ -27,10 +27,11 @@ export default {
       //  category + "&&" +
       //  upNum + "&&" +
       //  readNum+"&&" +
-      //  userName;
+      //  userName  +"&&" +
+      // userId
     },
     coverPath: function () {
-      return this.$baseUrl + 'getCover?articleId=' + this.infoArray[0] + '&userId=' + this.infoArray[7]
+      return this.$baseUrl + 'getCover?articleId=' + this.infoArray[0] + '&userId=' + this.infoArray[8]
     },
     isYourArticle: function () {
       // 判断是不是自己的文章
