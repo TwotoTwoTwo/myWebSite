@@ -1,7 +1,7 @@
 <template>
   <div class="mc" id='mc'>
     <topbar @jump="jump"></topbar>
-    <div v-if=isShow style="display:inline-block;width:85%;vertical-align: top;">
+    <div v-if=isShow style="display:inline-block;width:86%;vertical-align: top;">
       <keep-alive exclude="mdPage"><router-view/></keep-alive>
     </div>
     <div class="navbar">
@@ -38,9 +38,9 @@ export default {
     },
     jumpp (category) {
       // 标签跳转，绑定标签
-      console.log(category)
+      // console.log(category)
       this.$category = category
-      console.log(this.$category)
+      // console.log(this.$category)
       // this.$router.go(-1)
       this.jump('/homePage')
     }
@@ -49,19 +49,21 @@ export default {
 </script>
 <style>
 .mc{
-  height: 75%;
+  min-height: 100vh;
   width:100%;
   text-align: center;
   color: white;
   display: inline-block;
   padding: 1%;
-  padding-bottom: 80px;
+  padding-bottom: 50px;
   box-sizing: border-box;
 }
 .navbar{
   opacity: 1;
-  width: 10%;
+  width: 12%;
   float: right;
+  border-radius: 10px;
+  box-shadow: 0px 0px 40px 1px rgba(29, 157, 231, 0.5);
 }
 .navButton{
   width: 100%;
@@ -70,7 +72,7 @@ export default {
   transition: cubic-bezier(0.075, 0.82, 0.165, 1);
   border:0px solid beige;
   margin-right: 10px;
-  background: rgb(51, 50, 50,.3);
+  background: rgb(51, 50, 50,0);
   filter:alpha(0.5);
   color: #fff8;
   border-radius: 5px;

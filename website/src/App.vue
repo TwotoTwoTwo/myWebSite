@@ -80,8 +80,7 @@ export default {
   .footer{
     height: 50px;
     line-height: 50px;
-    position: absolute;
-    bottom: 0px;
+    margin-top: -50px;
     width: 100%;
     color: rgb(231, 223, 223);
   }

@@ -34,7 +34,7 @@ export default {
       this.date = info[3]
       this.summary = info[2]
       this.category = info[4]
-      this.content = info[8]
+      this.content = info[9]
     } else {
       this.articleId = undefined
       this.title = undefined

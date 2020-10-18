@@ -70,7 +70,7 @@ export default {
       method: 'get'
     }).then(resp => {
       let c = resp.data
-      this.info = c.split('&&', 9)
+      this.info = c.split('&&', 10)
       //  文章信息包含以下八种
       //  articleId + "&&" +
       //  title + "&&" +
@@ -79,9 +79,10 @@ export default {
       //  category + "&&" +
       //  upNum + "&&" +
       //  readNum+ "&&" +
-      //  userId+ "&&" +
+      //  userName  +"&&" +
+      // userId +"&&" +
       //  content;
-      this.html = this.$markdownIt.render(this.info[8])
+      this.html = this.$markdownIt.render(this.info[9])
       this.isAready++
     })
     // 获取评论
@@ -104,15 +105,15 @@ export default {
   },
   methods: {
     edit () {
-      if (this.$user['userId'] !== this.info[7]) this.$toast('container', '无法编辑其他用户的文章')
-      else if (this.$user['userPassword'] === null) this.$toast('container', '权限不够，无法编辑')
+      if (this.$user['userId'] !== this.info[8] ||
+          this.$user['token'] === null ||
+          this.$user['token'] === undefined) this.$toast('container', '权限不够，无法编辑')
       else {
         this.$router.push({path: '/editorPage',
           query: {info: this.info}})
       }
     },
     submit () {
-      console.log(this.comment.length)
       if (this.comment.length === 0) {
         // 自定义弹框
         this.$toast('commentEditArea', '请输入评论内容')
@@ -169,7 +170,7 @@ export default {
   computed: {
     words: function () {
       // info[8] 是文章内容
-      return this.info !== undefined ? this.info[8].length : 0
+      return this.info !== undefined ? this.info[9].length : 0
     }
   }
 }

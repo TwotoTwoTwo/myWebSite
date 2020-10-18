@@ -1,6 +1,6 @@
 <template>
   <div class="topBar" >
-      <h1 style="float:left;margin-top:20px;background: rgb(43, 42, 42);">{{userName}}</h1>
+      <h1 style="float:left;margin-top:20px;">{{userName}}</h1>
       <h3 style="float:left;margin-left:2%;margin-top:20px;">{{declaration}}</h3>
       <div class="RLButton" @click="jump(item)"
       v-for="(item,i) in categories" :key="i">
@@ -69,9 +69,11 @@ export default {
   }
   .topBar{
     text-align:right;
-    padding-top:5px;
-    padding-bottom: 20px;
-    margin: auto;
+    padding: 20px;
+    margin: 10px;
+    margin-bottom: 30px;
     color: rgb(80, 221, 240);
+    border-radius: 10px;
+    box-shadow: 0px 0px 40px 1px rgba(29, 157, 231, 0.5);
   }
 </style>
